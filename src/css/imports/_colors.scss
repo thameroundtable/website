@@ -36,6 +36,10 @@
   color: var(--black);
 }
 
+.table-yellow {
+  background-color: var(--table-yellow);
+}
+
 .bg-primary {
   background-color: var(--primary);
 }
@@ -46,6 +50,14 @@
 
 .bg-white {
   background-color: var(--white);
+}
+
+.bg-table-grey {
+  background-color: var(--table-grey);
+}
+
+.bg-banner {
+  background-color: var(--banner);
 }
 
 .bg-off-white {

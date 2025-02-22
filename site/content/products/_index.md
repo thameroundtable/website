@@ -1,5 +1,6 @@
 ---
 title: Our Coffee
+logo: /img/banner.png
 type: products
 image: /img/products-jumbotron.jpg
 intro:

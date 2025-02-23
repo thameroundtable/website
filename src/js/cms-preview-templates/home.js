@@ -28,10 +28,6 @@ export default class HomePreview extends React.Component {
               <p>{product.get("text")}</p>
             </div>)}
           </div>
-
-          <div className="tc">
-            <a href="#" className="btn raise">See all products</a>
-          </div>
         </div>
       </div>
 
@@ -43,10 +39,6 @@ export default class HomePreview extends React.Component {
               <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "values", "heading"])}</h2>
 
               <p>{entry.getIn(["data", "values", "text"])}</p>
-            </div>
-
-            <div className="w-60-l ph2-l">
-              <img src="/img/home-about-section.jpg" alt="" className="mb3"/>
             </div>
           </div>
 
